@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T06:20:47.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="JXR0VgrTTUtCZTxuEQ6o" version="22.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-25T06:21:23.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="zNwPApoj0HYQiosvFsuq" version="22.0.7" type="github" pages="2">
   <diagram id="H3zZEIaYL67HUxXsGde5" name="페이지-2">
-    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,9 +136,6 @@
         </mxCell>
         <mxCell id="45ZhJ96Yoqv4pbPW2KJ0-61" value="사용자 1회권 복구" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1845" y="1250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="45ZhJ96Yoqv4pbPW2KJ0-67" value="사용자와 전화통화 &lt;br&gt;후 사유 결정" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1885" y="1130" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="45ZhJ96Yoqv4pbPW2KJ0-68" value="수거 신청 당일 00:00 까지 가능" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="590" width="120" height="30" as="geometry" />
