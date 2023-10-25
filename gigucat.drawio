@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T05:57:31.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="nN_0ycL01XWRzR4jW63H" version="22.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-25T06:02:06.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="D4URvpGfr-jjQtz4pQee" version="22.0.7" type="github" pages="2">
   <diagram id="H3zZEIaYL67HUxXsGde5" name="페이지-2">
-    <mxGraphModel dx="2390" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -238,15 +238,65 @@
         </mxCell>
         <mxCell id="45ZhJ96Yoqv4pbPW2KJ0-69" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1160" y="1681.6666666666667" as="sourcePoint" />
+            <mxPoint x="1160" y="1240" as="sourcePoint" />
             <mxPoint x="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MznpoWkpegJUWdEB028j-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ESHMhZyScrzDNSQAjK8A-2" target="ESHMhZyScrzDNSQAjK8A-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2480" y="247.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-2" value="수거권 환불 요청(1~N개)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="117.5" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-3" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="87.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-4" value="수거권 환불 신청 리스트" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="117.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-5" value="Admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="87.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-6" value="수거권 환불" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2640" y="47.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ESHMhZyScrzDNSQAjK8A-8" target="ESHMhZyScrzDNSQAjK8A-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-8" value="관리자가 주문번호별 잔여 수거권을 판단하여 환불금액 산정" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="247.5" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-9" value="기존 환불 시스템 이용" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="432.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ESHMhZyScrzDNSQAjK8A-4" target="ESHMhZyScrzDNSQAjK8A-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2955" y="217.5" as="sourcePoint" />
+            <mxPoint x="2980" y="248.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ESHMhZyScrzDNSQAjK8A-11" value="수거권 환불 요청(1~N개)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="117.5" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cErXIgc5VA-AO4xyRw0s-1" value="사용자가 요청한 수거권에 해당하는 주문번호가 리스트에 노출이 된다.&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ex) &lt;br&gt;사용자1은 2회 수거권 상품을 2개월째 이용 중이다.&lt;/span&gt;&lt;/div&gt;( 이 때 주문번호는 A,B 총 2개가 생성된다. 상품 x 2개월 )&lt;br&gt;&lt;br&gt;사용자1이 보유한 수거권 4개중 1개를 이용하고 3개를 환불받고자 한다면&lt;br&gt;관리자 환불리스트에는 주문A, B가 리스트에 노출이 되고&amp;nbsp; 각 주문별 남은 수거권의 수가 노출이되고 관리자가 판단하여 주문별 환불금액을 산정한다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="72.5" width="410" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ex9Il8IAYDIlaeAYDWc-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="1240" as="sourcePoint" />
+            <mxPoint x="2280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="페이지-1" id="zEJeCXBF85wVR9Q54pB5">
-    <mxGraphModel dx="3088" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3703" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
