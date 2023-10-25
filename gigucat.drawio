@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T06:02:06.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="D4URvpGfr-jjQtz4pQee" version="22.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-25T06:02:49.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="2hNXlHCPjgmadU52JYDy" version="22.0.7" type="github" pages="2">
   <diagram id="H3zZEIaYL67HUxXsGde5" name="페이지-2">
-    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2868" dy="1476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -242,9 +242,6 @@
             <mxPoint x="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MznpoWkpegJUWdEB028j-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="320" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="ESHMhZyScrzDNSQAjK8A-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ESHMhZyScrzDNSQAjK8A-2" target="ESHMhZyScrzDNSQAjK8A-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2480" y="247.5" as="targetPoint" />
@@ -261,9 +258,6 @@
         </mxCell>
         <mxCell id="ESHMhZyScrzDNSQAjK8A-5" value="Admin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2900" y="87.5" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ESHMhZyScrzDNSQAjK8A-6" value="수거권 환불" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2640" y="47.5" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ESHMhZyScrzDNSQAjK8A-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ESHMhZyScrzDNSQAjK8A-8" target="ESHMhZyScrzDNSQAjK8A-9">
           <mxGeometry relative="1" as="geometry" />
@@ -291,6 +285,9 @@
             <mxPoint x="2280" y="1240" as="sourcePoint" />
             <mxPoint x="2280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FvE_LCUF_8firkSSVCOH-1" value="수거권 환불" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="30" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
